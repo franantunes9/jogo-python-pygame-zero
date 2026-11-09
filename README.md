@@ -2,6 +2,8 @@
 
 Projeto de estudo com dois jogos feitos em Python usando a biblioteca Pygame Zero: um jogo de coletar estrelas e um quiz sobre Python básico. Eu criei para praticar programação e para mostrar, de um jeito divertido, conceitos de quem está começando.
 
+![Tela do jogo Caça-estrelas](docs/jogo-tela.png)
+
 ## Jogo 1: Caça-estrelas (`jogo.py`)
 
 Mova o personagem com as setas do teclado e pegue as estrelas. Cada estrela vale 1 ponto. Bolas vermelhas caem e tiram 1 ponto se baterem em você.

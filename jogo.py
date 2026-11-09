@@ -107,7 +107,7 @@ def update():
         jogador.y += VELOCIDADE_JOGADOR
 
     # O nível depende dos pontos; quanto maior, mais rápido caem os obstáculos.
-    nivel = pontos // PONTOS_POR_NIVEL + 1
+    nivel = max(nivel, pontos // PONTOS_POR_NIVEL + 1)
     velocidade = 3 + nivel
     if len(obstaculos) < min(nivel, MAX_OBSTACULOS):
         obstaculos.append(criar_obstaculo())
