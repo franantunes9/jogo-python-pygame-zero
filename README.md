@@ -56,10 +56,11 @@ O campo `certa` é a posição da resposta certa: 0 é a primeira opção, 1 é 
 
     jogo.py              jogo Caça-estrelas
     quiz_python.py       quiz de Python
-    images/              imagens do personagem, da estrela e do obstáculo
+    images/              imagens do personagem, da estrela, do obstáculo e do fundo
     sounds/              efeitos sonoros de acerto, erro e fim de jogo
     gerar_imagens.py     cria as imagens por código
     gerar_sons.py        cria os efeitos sonoros por código
+    gerar_fundo.py       cria o fundo estrelado por código
     evolucao/            as versões 1 a 6 do projeto, em ordem
 
 ## Evolução do projeto

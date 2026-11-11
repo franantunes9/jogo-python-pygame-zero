@@ -38,7 +38,7 @@ def reposicionar(obstaculo):
 
 def draw():
     """Desenha a tela de acordo com o estado do jogo."""
-    screen.fill((30, 30, 60))
+    screen.blit("fundo", (0, 0))
     if estado == "inicio":
         screen.draw.text("Caça-estrelas", center=(300, 120), fontsize=64, color="yellow")
         screen.draw.text("Mova-se com as setas e pegue as estrelas", center=(300, 200), fontsize=28)
